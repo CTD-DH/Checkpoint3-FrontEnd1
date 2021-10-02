@@ -2,8 +2,8 @@ Checkpoint 03 - Front End I - Turma 03
 Entrega 07/10
 
 Devs:
-Felipe Bertevello
-João Bosco S. Filho
+Felipe Bertevello,
+João Bosco S. Filho,
 Vando Borges
 
 Objetivo
