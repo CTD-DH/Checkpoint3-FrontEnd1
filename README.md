@@ -2,11 +2,12 @@ Checkpoint 03 - Front End I - Turma 03
 Entrega 07/10
 
 Devs:
-Felipe Bertevello
-João Bosco S. Filho
+Felipe Bertevello,
+João Bosco S. Filho,
 Vando Borges
 
 Objetivo
+
 Ficamos muito felizes com sua jornada até aqui, pois foram muitos desafios e conteúdos que você precisou aprender para que você chegasse até este momento.
 Essa etapa do curso é onde você vai usar todo seu conhecimento adquirido até aqui. Não apenas o conhecimento técnico, mas também o trabalho em equipe, organização, foco e persistência.
 Instruções
