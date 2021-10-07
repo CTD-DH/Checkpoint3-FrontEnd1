@@ -2,20 +2,12 @@
 
 body{
     height: max-content;
+    background-color: #000000;
 }
 
 main{
-    background-color: #000000;
     position: relative;
-}
-
-.main-carousel .carousel-inner .carousel-item img{
-    height: fit-content;
-} 
-
-.container-carousel{
-    height: 75vh;
-    padding-top: 20px;
+    background-color: #000000;
 }
 
 .carousel-subtitles{

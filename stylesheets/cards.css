@@ -1,3 +1,4 @@
-.container-custom-cards{
-    padding-top: 50px;
+
+.row img:hover{
+    filter: brightness(1.2);
 }
