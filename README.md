@@ -7,6 +7,7 @@ João Bosco S. Filho,
 Vando Borges
 
 GitPage: https://ctd-dh.github.io/Checkpoint3-FrontEnd1/index.html
+Repositório: https://github.com/CTD-DH/Checkpoint3-FrontEnd1
 
 Objetivo
 
