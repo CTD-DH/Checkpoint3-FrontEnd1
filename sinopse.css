@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.col {   
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+}
+
+.col-custom {
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.card-custom {
+    text-align: center;
+    background-color:#F4C518;   
+}
+
+.card-custom img {
+    height: 75vh;
+}
+
+.bnt-custom {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.bnt-custom:hover {
+    background-color: #000000;
+    color:#F4C518;
+}
+
+.avaliacoes {
+    background-color:#121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 6px;
+}
+
+.estrela {
+    text-align: center;
+    color: #121212;
+    background-color:#FFFFFF;
+}
+
+.estrela img{
+    background-color:#FFFFFF;
+    width: 20px;
+    color:#F4C518;
+}
+
+
+h1{
+    text-align: center;
+    background-color:#F4C518;
+    border-radius: 12px;
+}

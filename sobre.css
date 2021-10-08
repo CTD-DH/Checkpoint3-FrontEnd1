@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.sobre {   
+    background-color:#121212;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+    border-radius: 12px;
+}
+
+.sobreaempresa {   
+    background-image: url(https://blogbeautifuldreams.files.wordpress.com/2018/11/harry-potter-e-a-pedra-filosofal.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    color: brown;
+}
+
+
+.pilares {
+    padding-top: 260px;
+    padding-bottom: 260px;
+}
+
+.equipe {   
+    background-image: url(https://cinemacomrapadura.com.br/imagens/2019/07/20190722-sda-a-sociedade-do-anel-tn-1200x675.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+    background-color:#F4C518;
+    border-radius: 12px;
+}
+
+h5{
+    text-align: center;
+    background-color: #000000 ;
+    border-radius: 12px;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    color: #FFFFFF;
+}
+
+p{
+    font-family: Verdana, 'Roboto', Tahoma, sans-serif;
+}
+
+/* .card{
+    height: 200px;
+    width: 200px;
+} */
+
+.card-body {
+    padding:5px;
+}
+
+/* .card-custom img {
+    height: 200px;
+    width: 200px;
+} */
+
+.card-custom img:hover{
+    opacity: 0.5;
+}
+
+.card ul img{
+    height: 30px;
+    width: 30px;
+}
+
+.redessociaistime {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    padding: 2px;
+    margin: 0;
+}
+
