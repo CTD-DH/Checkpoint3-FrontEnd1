@@ -1,4 +1,13 @@
 
 .row img:hover{
     filter: brightness(1.2);
+    transform: scale(1.1);
+}
+
+#image-cards{
+    z-index: 1;
+}
+
+.row h5:hover{
+    transform: scale(1.05);
 }
