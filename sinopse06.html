@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="sinopse.css">
+    <title>O quarto de Jack</title>
+    <script src="funcoes.js"></script>
+    <link rel="stylesheet" href="stylesheets/footer.css">
+    <link rel="stylesheet" href="stylesheets/navbar.css">
+
+  </head>
+  <body>
+
+    <header>
+
+      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-nome-bookshelf.png" alt="" width="160" height=auto class="d-inline-block align-text-top">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-position" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-space">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Top 5 Livros</a>
+              <a class="nav-link" href="#">Virou Filme</a>
+              <a class="nav-link" href="#">Sobre Nós</a>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-sm btn-outline-secondary btn-login" type="button">Login</button>
+      </nav>
+
+</header>
+
+    <div class="container">
+        <div class="row">          
+
+          <div class="col-sm-12 col-md-4 mb-3">
+
+            <div class="card card-custom">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/41vtCX7HX5L._SX334_BO1,204,203,200_.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <a href="https://www.amazon.com.br/Culpa-%C3%89-das-Estrelas/dp/8580572266/ref=asc_df_8580572266/?tag=googleshopp00-20&linkCode=df0&hvadid=379787615198&hvpos=&hvnetw=g&hvrand=12249930890421896519&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100575&hvtargid=pla-647290397037&psc=1" class="btn btn-primary bnt-custom">Compre Aqui!</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-custom">
+            <h1>Sobre o Livro</h1>
+
+            <p>Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante — o que lhe dá a promessa de viver mais alguns anos —, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.</p>
+            
+            <div class="estrela my-3" >
+
+              <h5>Deixe sua Avaliação!</h5>
+              <a href="javascript:void(0)" onclick="Avaliar(1)">
+              <img src="star0.png" id="s1"></a>
+              
+              <a href="javascript:void(0)" onclick="Avaliar(2)">
+              <img src="star0.png" id="s2"></a>
+              
+              <a href="javascript:void(0)" onclick="Avaliar(3)">
+              <img src="star0.png" id="s3"></a>
+              
+              <a href="javascript:void(0)" onclick="Avaliar(4)">
+              <img src="star0.png" id="s4"></a>
+              
+              <a href="javascript:void(0)" onclick="Avaliar(5)">
+              <img src="star0.png" id="s5"></a>
+              <p id="rating">0 Estrela</p>
+        
+            </div>
+
+          </div> 
+
+          <div class="col-sm-12 col-md-4 col-custom">
+            <h1>Sobre o Autor</h1>
+            <p>John Michael Green (Indianápolis, Indiana, 24 de agosto de 1977) é um vlogger, empresário, produtor e autor norte-americano de livros para jovens. Ele escreveu vários livros premiados como Looking for Alaska, Paper Towns e The Fault in Our Stars, que foram sucesso de público e crítica, sendo que estes dois últimos foram transformados em filmes, que foram muito bem na bilheteria. Em 2014, Green foi listado na revista Time como uma das "100 Pessoas mais Influentes do Mundo". Além do seu trabalho como escritor, John também é conhecido por seus trabalhos no YouTube. Em 2007, ele lançou o canal VlogBrothers com seu irmão, Hank Green. Desde então, John e Hank criaram Project for Awesome e a VidCon, além do projeto educacional Crash Course, focado em história, literatura e ciência, que também aborda assuntos como economia, política, astronomia, filosofia, psicologia, sociologia e entretenimento. Seus livros já venderam mais de 50 milhões de cópias pelo mundo, incluindo 4,5 milhões no Brasil.</p>        
+          </div>  
+     
+        </div>
+
+        <div class="avaliacoes mt-3">
+          <h2>Principais avaliações do Brasil</h2>
+          <p><h3>Felipe</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad, animi quasi consequuntur id, aspernatur similique nisi ratione delectus sequi, iure aut reprehenderit voluptatum. Molestiae modi similique repudiandae optio eaque expedita nihil explicabo nobis amet! Temporibus cum minima vitae mollitia quam. Atque nobis tenetur quis, vitae culpa expedita eligendi adipisci.</p>
+          <p><h3>João:</h3> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aliquid repudiandae mollitia error voluptatum! Earum iure accusamus dolorum, numquam repudiandae magni id labore hic corrupti libero illo ipsam dignissimos, nisi est commodi fugit aperiam omnis, pariatur vero itaque cum illum asperiores. Exercitationem dignissimos libero reprehenderit, deleniti voluptates soluta alias distinctio!</p>
+          <p><h3>Vando:</h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptas, et asperiores ut nihil atque qui sequi autem nisi. Accusamus aliquam rerum perferendis hic ipsum iusto. Excepturi assumenda perspiciatis itaque! Excepturi aperiam quaerat perferendis quas quia cupiditate saepe facilis vero.</p>
+        </div>
+
+    </div>
+
+    <footer>
+
+      <div class="bg-dark-black">
+          <div class="social-icons">
+              <ul class="social-icons-list">
+                  <li><a href="#"><img class="social-icon-itens"  src="images/facebook.icon.light.png" alt="facebook icon for Bookshelf" height="30px" width="30px"></a></li>
+                  <li><a href="#"><img class="social-icon-itens"  src="images/instagram-icon-light.png" alt="instagram icon for Bookshelf" height="30px" width="30px"></a></li>
+                  <li><a href="#"><img class="social-icon-itens"  src="images/twitter-icon-light.png" alt="twitter icon for Bookshelf" height="30px" width="30px"></a></li>
+                  <li><a href="#"><img class="social-icon-itens"  src="images/youtube-icon-light.png" alt="youtube icon for Bookshelf" height="30px" width="30px"></a></li>
+              </ul>
+          </div>
+          <div class="links-container">
+              <div class="footer-links">
+                  <a class="footer-link-custom active" aria-current="page" href="#">Home</a>
+                  <a class="footer-link-custom" href="#">Top 5 Livros</a>
+                  <a class="footer-link-custom" href="#">Virou Filme</a>
+                  <a class="footer-link-custom" href="#">Sobre Nós</a>
+              </div>
+          </div>
+          <div class="copyrights">
+              <p>® 2021 - by The Bookshelf Devs - CTD</p>
+          </div>
+      </div>
+  
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+   
+
+    
+
+
+  </body>
+  
+</html>
