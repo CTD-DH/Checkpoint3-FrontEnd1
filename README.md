@@ -6,6 +6,8 @@ Felipe Bertevello,
 João Bosco S. Filho,
 Vando Borges
 
+GitPage: https://ctd-dh.github.io/Checkpoint3-FrontEnd1/index.html
+
 Objetivo
 
 Ficamos muito felizes com sua jornada até aqui, pois foram muitos desafios e conteúdos que você precisou aprender para que você chegasse até este momento.
